@@ -20,6 +20,9 @@ int n = int.Parse(Console.ReadLine()!);
 numbers(m, n);
 
 
+
+
+
 // Задача 2: Напишите программу вычисления функции Аккермана с помощью рекурсии. 
 // Даны два неотрицательных числа m и n.
 using static System.Console;
@@ -53,6 +56,8 @@ Console.Write("Введите значение N: ");
 int n = int.Parse(Console.ReadLine()!);
 int AkkermanFunction = Akkerman(m,n);
 Write($"Функция Аккермана = {AkkermanFunction} ");
+
+
 
 
 
